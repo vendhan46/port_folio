@@ -17,9 +17,6 @@
 #home-text h1, #home-text h2 {
   color: white; 
 }
-#home-image{
-  max-height: 400px;
-}
 .animated-text {
   font-family: 'Courier New', monospace;
   white-space: nowrap;
