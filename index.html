@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Vision</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        
+      </head>
+    <body>
+        
+        <marquee><p class="bg-white" id="nav-1">Welcome to VENDHAN'S Portfolio | Full Stack Developer | Python | Django | Flask | HTML | CSS | Bootstrap | JavaScript | React.js | SQL | Passionate about solving real-world problems
+        </p></marquee>
+         
+        
+        
+        <nav class="navbar navbar-expand-lg bg-transparent sticky-top" style="z-index:1020;">
+        <div class="container-fluid" id="nav-2">
+            <div class="navbar-brand col-2" data-aos="zoom-in">VENDHAN'S PORTFOLIO</div>
+                <div class="ms-auto d-lg-none"> 
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <div class="navbar-nav " id="menu-items">
+                <div class="nav-item">
+                <a class="nav-link" href="#home">HOME</a></div>
+                <div class="nav-item">
+                <a class="nav-link" href="#skills">SKILLS</a></div>
+                <div class="nav-item">
+                <a class="nav-link" href="#back">PROJECTS</a></div>
+                <div class="nav-item">
+                <a class="nav-link" href="#back1">CERTIFICATIONS</a></div>
+                <div class="nav-item">
+                <a class="nav-link" href="#connect">CONTACT</a></div>
+            </div>
+            </div>
+        </div>
+        </div>
+        </nav>
+
+
+<!-- Home section -->
+<section id="home" class="vh-75 py-5" data-aos="zoom-in">
+  <div class="container">
+    <div class="row align-items-center">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6 text-black">
+        <h1 class="fw-bold mb-2">Hi, I'm Vendhan V</h1>
+        <h3 class="animated-text mb-3"><span id="typed-text"></span><span class="cursor">|</span></h3>
+        <p>I’m a passionate Full Stack Developer with experience in building responsive and efficient web applications. Skilled in HTML, CSS, JavaScript, Python, and frameworks like Django and React. I enjoy turning ideas into reality with clean, optimized code.</p>
+        <a href="project.html" class="btn btn-outline-light mt-4">View Projects</a>
+      </div>
+        <div class="col-md-6 text-center" id="home-image">
+        <img src="images/me1.jpeg" alt="Vendhan V" style="max-height: 61vh;" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 
+<section id="skills" class="py-5" data-aos="zoom-in">
+  <div class="container text-center">
+    <h2 id="skill-text-title" class="mb-4 fw-bold" data-aos="zoom-in">My Skills</h2>
+
+    <div id="skillCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <div class="row justify-content-center">
+            <div class="col-md-8">
+              <h4 id="skill-text-subtitle" class="mb-3">Technical Skills</h4>
+              <ul class="list-unstyled fs-5" id="skill-text">
+                <li>💻 HTML, CSS, JavaScript</li>
+                <li>⚙️ Python, Django, Flask</li>
+                <li>🗃️ MySQL, SQLite</li>
+                <li>⚡ React (Basics)</li>
+                <li>🔐 Git, GitHub, Bootstrap</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="row justify-content-center">
+            <div class="col-md-8">
+              <h4 id="skill-text-subtitle" class="mb-3">Soft Skills</h4>
+              <ul class="list-unstyled fs-5" id="skill-text">
+                <li>🧠 Problem Solving</li>
+                <li>🗣️ Communication</li>
+                <li>🤝 Team Collaboration</li>
+                <li>🕐 Time Management</li>
+                <li>🎯 Adaptability & Learning Agility</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#skillCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#skillCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+  </div>
+</section> -->
+
+
+
+<section id="skills" class="py-5" data-aos="zoom-in">
+  <div class="container text-center">
+    <h2 class="mb-5 fw-bold">My Skills</h2>
+    <div class="row g-4">
+
+      <!-- Skill 1 -->
+      <div class="col-6 col-md-3">
+        <div class="card border-0 shadow-sm h-100 p-3">
+          <img src="images/skills/html5.svg" class="img-fluid mb-2" alt="HTML" style="height:80px;">
+          <h6 class="fw-bold">HTML5</h6>
+        </div>
+      </div>
+
+      <!-- Skill 2 -->
+      <div class="col-6 col-md-3">
+        <div class="card border-0 shadow-sm h-100 p-3">
+          <img src="images/skills/css.svg" class="img-fluid mb-2" alt="CSS" style="height:80px;">
+          <h6 class="fw-bold">CSS3</h6>
+        </div>
+      </div>
+
+      <!-- Skill 3 -->
+      <div class="col-6 col-md-3">
+        <div class="card border-0 shadow-sm h-100 p-3">
+          <img src="images/skills/javascript.svg" class="img-fluid mb-2" alt="JavaScript" style="height:80px;">
+          <h6 class="fw-bold">JavaScript</h6>
+        </div>
+      </div>
+
+      <!-- Skill 4 -->
+      <div class="col-6 col-md-3">
+        <div class="card border-0 shadow-sm h-100 p-3">
+          <img src="images/skills/python.svg" class="img-fluid mb-2" alt="Python" style="height:80px;">
+          <h6 class="fw-bold">Python</h6>
+        </div>
+      </div>
+
+      <!-- Skill 5 -->
+      <div class="col-6 col-md-3">
+        <div class="card border-0 shadow-sm h-100 p-3">
+          <img src="images/skills/django.svg" class="img-fluid mb-2" alt="Django" style="height:80px;">
+          <h6 class="fw-bold">Django</h6>
+        </div>
+      </div>
+
+      <!-- Skill 9 -->
+      <div class="col-6 col-md-3">
+        <div class="card border-0 shadow-sm h-100 p-3">
+          <img src="images/skills/flask.svg" class="img-fluid mb-2" alt="Flask" style="height:80px;">
+          <h6 class="fw-bold">Flask</h6>
+        </div>
+      </div>
+
+      <!-- Skill 6 -->
+      <div class="col-6 col-md-3">
+        <div class="card border-0 shadow-sm h-100 p-3">
+          <img src="images/skills/react.svg" class="img-fluid mb-2" alt="React" style="height:80px;">
+          <h6 class="fw-bold">React.js</h6>
+        </div>
+      </div>
+
+      <!-- Skill 7 -->
+      <div class="col-6 col-md-3">
+        <div class="card border-0 shadow-sm h-100 p-3">
+          <img src="images/skills/mysql.svg" class="img-fluid mb-2" alt="SQL" style="height:80px;">
+          <h6 class="fw-bold">MySQL</h6>
+        </div>
+      </div>
+
+      <!-- Skill 8 -->
+      <div class="col-6 col-md-3">
+        <div class="card border-0 shadow-sm h-100 p-3">
+          <img src="images/skills/bootstrap.svg" class="img-fluid mb-2" alt="Bootstrap" style="height:80px;">
+          <h6 class="fw-bold">Bootstrap</h6>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- Section for the project -->
+<!--Project 1-->
+<div id="back" data-aos="zoom-in">
+<h2 class="text-center fw-bold" style="padding:30px;">Projects</h2>
+<section class="container-fluid py-5" id="about">
+  <div class="container">
+    <div class="row align-items-center">
+      
+      <div class="col-lg-6 mb-4 mb-lg-0">
+        <div id="aboutCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img style="height:300px; width:400px;" src="images/projects/xpressify/Picture1.jpg" class="d-block w-100 rounded shadow img-click" alt="Slide 1" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="images/projects/multicloud/AWS.png">
+            </div>
+            <div class="carousel-item">
+              <img style="height:300px; width:400px;" src="images/projects/xpressify/Picture2.jpg" class="d-block w-100 rounded shadow img-click" alt="Slide 2" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="images/projects/multicloud/GOOGLE CLOUD PLATFORM.png">
+            </div>
+            <div class="carousel-item">
+              <img style="height:300px; width:400px;" src="images/projects/xpressify/Picture3.jpg" class="d-block w-100 rounded shadow img-click" alt="Slide 3" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="images/projects/multicloud/WASABI.png">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#aboutCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#aboutCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+      </div>
+      <!-- Text Column -->
+      <div class="col-lg-6 text-black">
+        <h2 class="mb-3 give-col">Xpressify – Emotion-Based Music Recommender</h2>
+        <p class="give-col"><em>Tech Stack:</em> Python, CNN, OpenCV, Flask, React, HTML/CSS, JavaScript, FER2013 Dataset</p>
+        <p class="give-col">Xpressify is an intelligent emotion-based music recommender system built using a combination of Python, React, Flask, 
+          and deep learning. The core of the project is a Convolutional Neural Network (CNN) trained on the FER2013 dataset to recognize human 
+          emotions such as happiness, sadness, anger, and surprise through real-time facial expression analysis using OpenCV. The backend, developed 
+          in Flask, processes video input and classifies the detected emotions, while the React-based frontend provides a smooth and responsive user interface. 
+          Based on the identified emotion, the system dynamically suggests suitable music tracks that align with the user’s mood, creating a personalized and engaging experience. 
+          This project reflects strong full-stack development skills along with practical implementation of AI in enhancing user interaction and well-being.</p>
+        <a href="#contact" class="btn btn-outline-light mt-3 give-col">Source code</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+ <!-- Project2 -->
+<section class="container-fluid py-5" id="about">
+  <div class="container">
+    <div class="row align-items-center">
+      
+      <div class="col-lg-6 mb-4 mb-lg-0">
+        <div id="aboutCarousel1" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img style="height:300px; width:400px;" src="images/projects/multicloud/AWS.png" class="d-block w-100 rounded shadow img-click" alt="Slide 1" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="images/projects/multicloud/AWS.png">
+            </div>
+            <div class="carousel-item">
+              <img style="height:300px; width:400px;" src="images/projects/multicloud/GOOGLE CLOUD PLATFORM.png" class="d-block w-100 rounded shadow img-click" alt="Slide 2" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="images/projects/multicloud/GOOGLE CLOUD PLATFORM.png">
+            </div>
+            <div class="carousel-item">
+              <img style="height:300px; width:400px;" src="images/projects/multicloud/WASABI.png" class="d-block w-100 rounded shadow img-click" alt="Slide 3" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="images/projects/multicloud/WASABI.png">
+            </div>
+            <div class="carousel-item">
+              <img style="height:300px; width:400px;" src="images/projects/multicloud/SECURITY SCORE.png" class="d-block w-100 rounded shadow img-click" alt="Slide 2" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="images/projects/multicloud/SECURITY SCORE.png">
+            </div>
+            <div class="carousel-item">
+              <img style="height:300px; width:400px;" src="images/projects/multicloud/security.png" class="d-block w-100 rounded shadow img-click" alt="Slide 2" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="images/projects/multicloud/security.png">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#aboutCarousel1" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#aboutCarousel1" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+      </div>
+      <!-- Text Column -->
+      <div class="col-lg-6 text-black">
+        <h2 class="mb-3 give-col">Multi-Cloud Secure Storage System</h2>
+        <p class="give-col"><em>Tech Stack:</em> Python, AES+Twofish, SHA-256, AWS, Google Cloud, Wasabi, OpenStack, Boto3, Google Cloud SDK, Matplotlib</p>
+        <p class="give-col">The Multi-Cloud Secure Storage System is a robust and performance-driven project designed to securely store encrypted data 
+          across multiple cloud platforms including AWS, Google Cloud, Wasabi, and OpenStack. It employs a hybrid encryption model combining AES and 
+          Twofish algorithms to ensure strong data confidentiality, with keys derived using SHA-256. Encrypted files are distributed across various 
+          cloud providers to enhance redundancy and security. The system also features performance analysis by calculating upload/download speed and time, 
+          along with a comprehensive security evaluation based on encryption strength, authentication, access control, and compliance. 
+          Graphs and tabulated summaries provide clear insights into each provider’s performance and protection capabilities. 
+          This project showcases a strong foundation in cloud computing, encryption, and data security principles.</p>
+        <!-- <p class="give-col">Built a secure and efficient multi-cloud file storage system using hybrid encryption (AES + Twofish) and parallel uploads across AWS, Google Cloud, Wasabi, and OpenStack.</p>
+        <p class="give-col">->Encrypted files using a strong AES-Twofish combination with SHA-256-based key generation.</p>
+        <p class="give-col">->Integrated APIs for secure upload and storage across multiple cloud providers.</p>
+        <p class="give-col">->Implemented real-time analysis of upload speed, time, and security posture</p>
+        <p class="give-col">->Evaluated cloud security based on encryption, access control, compliance, and threat resistance.</p>
+        <p class="give-col">->Visualized performance and security comparisons using Matplotlib and tabulated summaries.</p> -->
+        <a href="#contact" class="btn btn-outline-light mt-3 give-col">Source code</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Projects 2 -->
+        <section class="container-fluid py-5"  id="about">
+            <div class="container">
+                <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                  <div id="aboutCarousel2" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img style="height:300px; width:400px;" src="images/projects/headpulse/img1.png" class="d-block w-100 rounded shadow img-click" alt="Slide 1" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="images/projects/multicloud/AWS.png">
+                      </div>
+                      <div class="carousel-item">
+                        <img style="height:300px; width:400px;" src="images/projects/headpulse/img2.png" class="d-block w-100 rounded shadow img-click" alt="Slide 2" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="images/projects/multicloud/GOOGLE CLOUD PLATFORM.png">
+                      </div>
+                      <div class="carousel-item">
+                        <img style="height:300px; width:400px;" src="images/projects/headpulse/img3.png" class="d-block w-100 rounded shadow img-click" alt="Slide 3" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="images/projects/multicloud/WASABI.png">
+                      </div>
+                      <div class="carousel-item">
+                        <img style="height:300px; width:400px;" src="images/projects/headpulse/img4.png" class="d-block w-100 rounded shadow img-click" alt="Slide 2" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="images/projects/multicloud/SECURITY SCORE.png">
+                      </div>
+                      <div class="carousel-item">
+                        <img style="height:300px; width:400px;" src="images/projects/headpulse/img5.png" class="d-block w-100 rounded shadow img-click" alt="Slide 2" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="images/projects/multicloud/security.png">
+                      </div>
+                      <div class="carousel-item">
+                        <img style="height:300px; width:400px;" src="images/projects/headpulse/img6.png" class="d-block w-100 rounded shadow img-click" alt="Slide 2" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="images/projects/multicloud/security.png">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#aboutCarousel2" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#aboutCarousel2" data-bs-slide="next">
+                      <span class="carousel-control-next-icon"></span>
+                    </button>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="mb-3 give-col">HEADPULSE - News aggregator</h2>
+                    <p class="give-col"><em>Tech Stack:</em> Python, Django, MySQL, HTML/CSS, Bootstrap, JavaScript, News API</p>
+                    <p class="give-col">
+                      HeadPulse is a real-time news aggregation and recommendation platform powered by Django as the backend framework. 
+                      The application integrates with the News API to fetch and display the latest headlines across categories such as 
+                      technology, business, sports, and entertainment. MySQL is used to store user interactions and preferences, enabling 
+                      a personalized content experience. The frontend, developed with HTML, CSS, Bootstrap, and JavaScript, offers a clean, 
+                      responsive interface for browsing news seamlessly. Django’s robust backend ensures secure data handling, efficient 
+                      routing, and smooth integration with the database. This project showcases expertise in full-stack web development, 
+                      REST API integration, and database-driven dynamic content delivery.
+                    </p>
+                    <a href="https://news-app-1-isqg.onrender.com" class="btn btn-outline-light mt-3 give-col">Source code</a>
+                </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+<!-- Section for the vertificates -->
+ <!-- certificates 1 -->
+    <div id="back1" data-aos="zoom-in">
+  <h2 class="text-center  fw-bold" style="padding: 30px;">Certificates</h2>
+        <section class="container-fluid py-5"  id="about">
+            <div class="container">
+                <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <img style="height:400px; width:300px;" src="images/certificates/BSNL intern certificate.jpg" class="img-fluid rounded shadow img-click" alt="Slide 2" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="images/certificates/BSNL intern certificate.jpg">
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="mb-3 give-col">Networking Internship</h2>
+                    <p class="give-col">BSNL (Bharat Sanchar Nigam Limited)</p>
+                    <p class="give-col">Completed a hands-on internship program in Networking and Telecommunications at BSNL, where I gained practical knowledge of broadband infrastructure, switching systems, mobile networks, and IP routing techniques. The training offered real-time exposure to telecom operations and enhanced my understanding of network design, configuration, and management</p>
+                    <a class="btn btn-outline-light mt-3 give-col" href="images/certificates/BSNL intern certificate.jpg" download>
+                      <i class="fa fa-download"></i> Download
+                    </a>
+                </div>
+                </div>
+            </div>
+        </section>
+        <!-- certificate 2 -->
+        <section class="container-fluid py-5"  id="about">
+            <div class="container">
+                <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <img style="height:300px; width:450px;" src="images/certificates/Conference Certificate (1).jpeg" class="img-fluid rounded shadow img-click" alt="Slide 2" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="images/certificates/Conference Certificate (1).jpeg">
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="mb-3 give-col">Paper Presentation</h2>
+                    <p class="give-col">NCRST’25 (First National Conference on Recent Trends in Science and Technology)</p>
+                    <p class="give-col">Presented a research paper titled “XPRESSIFY: Facial Emotion Recognition and Music Recommendation System” at the First National Conference on Recent Trends in Science and Technology (NCRST'25), organized by Government College of Engineering, Dharmapuri on April 4, 2025.
+This project explored the integration of AI-powered emotion detection with personalized music suggestions, offering innovative solutions in human-computer interaction.</p>
+                    <a class="btn btn-outline-light mt-3 give-col" href="images/certificates/Conference Certificate (1).jpeg" download>
+                      <i class="fa fa-download"></i> Download
+                    </a>
+                </div>
+                </div>
+            </div>
+        </section>
+        <!-- certificate 3 -->
+        <section class="container-fluid py-5"  id="about">
+            <div class="container">
+                <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <img style="height:300px; width:450px;" src="images/certificates/opencv.png" class="img-fluid rounded shadow img-click" alt="Slide 2" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="images/certificates/opencv.png">
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="mb-3 give-col">Introduction to OpenCV for Beginners</h2>
+                    <p class="give-col">Certified by Simplilearn</p>
+                    <p class="give-col">Completed an introductory course on OpenCV offered by Simplilearn, covering the core concepts of computer vision and image processing. Gained hands-on experience in manipulating images, detecting edges, faces, and shapes, and using OpenCV functions for real-time video analysis and camera operations in Python</p>
+                    <a class="btn btn-outline-light mt-3 give-col" href="images/certificates/opencv.png" download>
+                      <i class="fa fa-download"></i> Download
+                    </a>
+                </div>
+                </div>
+            </div>
+        </section>
+        <!-- certificate 4 -->
+        <section class="container-fluid py-5"  id="about">
+            <div class="container">
+                <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <img style="height:300px; width:450px;" src="images/certificates/powerb-basics.png" class="img-fluid rounded shadow img-click" alt="Slide 2" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="images/certificates/powerb-basics.png">
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="mb-3 give-col">Power BI Basics Workshop</h2>
+                     <p class="give-col">Conducted by Office Master</p>
+                    <p class="give-col">Completed a hands-on workshop focused on the fundamentals of Microsoft Power BI, organized by Office Master. Gained practical experience in creating interactive dashboards, visualizing business data, and publishing reports using Power BI Desktop and Power BI Service. The session emphasized data modeling, DAX functions, and real-time analytics for business insights</p>
+                    <a class="btn btn-outline-light mt-3 give-col" href="images/certificates/powerb-basics.png" download>
+                      <i class="fa fa-download"></i> Download
+                    </a>
+                </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+<section id="contact" data-aos="zoom-in" class="py-5" style="min-height: 100vh; background:rgb(196, 176, 176);">
+        <div class="container d-flex flex-column justify-content-between" style="height: 100%;">
+          
+          <h2 class="text-center mb-5 fw-bold" data-aos="zoom-in">Connect</h2>
+
+          <div class="row mb-5">
+            
+            <div class="col-md-6 text-black">
+              <h4 class="mb-3" >📞 Contact Info</h4>
+              <p><strong>📍 Address:</strong>Thadagam road, Coimbatore, Tamil Nadu, India</p>
+              <p><strong>📞 Phone:</strong> +91 81246-22696</p>
+              <p><strong>✉️ Email:</strong>vendhanvelusamy@gmail.com</p>
+            </div>
+            
+            <div class="col-md-6 text-black">
+              <h4 class="mb-3">🎓 Education</h4>
+              <p><strong>B.Tech in Information Technology</strong></p>
+              <p>Government College of Technology, Coimbatore</p>
+              <p><em>2021 – 2025 (Fresher)</em></p>
+              <p>CGPA = 7.61</p>
+            </div>
+
+          </div>
+
+          <div class="text-center " id="connect">
+            <h6 class="mb-3 text-black">🌐 Connect With Me</h6>
+            <a href="https://www.linkedin.com/in/vendhan46/" target="_blank" class="text-black mx-2">
+              <i class="fab fa-linkedin fa-lg"></i>
+            </a>
+            <a href="https://github.com/vendhan46/" target="_blank" class="text-black mx-2">
+              <i class="fab fa-github fa-lg"></i>
+            </a>
+            <a href="https://instagram.com/vendhan__vb" target="_blank" class="text-black mx-2">
+              <i class="fab fa-instagram fa-lg"></i>
+            </a>
+            <a href="mailto:vendhanvelusamy@gmail.com" class="text-black mx-2">
+              <i class="fas fa-envelope fa-lg"></i>
+            </a>
+          </div>
+          <!-- <form action="mailto:vendhanvelusamy@gmail.com" method="post" enctype="text/plain">
+            <div class="mb-3">
+              <label for="name" class="form-label text-black">Name</label>
+              <input type="text" id="name" name="name" class="form-control" required>
+            </div>
+            
+            <div class="mb-3">
+              <label for="email" class="form-label text-black">Email</label>
+              <input type="email" id="email" name="email" class="form-control" required>
+            </div>
+            
+            <div class="mb-3">
+              <label for="message" class="form-label text-black">Message</label>
+              <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+            </div> 
+            
+            <button type="submit" class="btn btn-dark">Send Message</button>
+          </form> -->
+        </div>
+      </section>
+
+      <!-- Modal for Fullscreen Image View -->
+      <div class="modal fade" id="imageModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+          <div class="modal-content bg-dark">
+            <div class="modal-body p-0">
+              <img src="" id="modalImage" class="img-fluid w-100" alt="Full Image">
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+        <script>
+          document.querySelectorAll('.img-click').forEach(item => {
+            item.addEventListener('click', function () {
+              const imgSrc = this.getAttribute('data-img');
+              document.getElementById('modalImage').src = imgSrc;
+            });
+          });
+        </script>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+          <script>
+          AOS.init({
+            duration: 1500, // animation duration in ms
+            once: true      // animation happens only once
+          });
+        </script>
+      </body>
+</html>
+
+
+

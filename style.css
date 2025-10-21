@@ -1,0 +1,73 @@
+#nav-1{
+    /* border-bottom: 1px solid black; */
+    margin: 10px;
+}
+#nav-2{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    /* background-color: #f8f9fa; */
+}
+#navbarNavDropdown{
+    background-color: #f8f9fa;
+}
+.nav-item{
+    margin-left: 70px;
+}
+#home-text h1, #home-text h2 {
+  color: white; 
+}
+#home-image{
+    height:200px;
+    margin-bottom: 200px;
+}
+.animated-text {
+  font-family: 'Courier New', monospace;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.cursor {
+  animation: blink 0.8s infinite;
+}
+#skills {
+  background-color: rgb(186, 148, 148);
+}
+.carousel-item ul li {
+  padding: 6px 0;
+}
+#home{
+  background-color: rgb(196, 176, 176) ;
+}
+#project-title{
+  font-size: 30px;
+}
+#back{
+    background-color: rgb(196, 176, 176);
+}
+#back1{
+  background-color: rgb(186, 148, 148);
+}
+#skill-text{
+  color: white;
+}
+#skill-text-subtitle{
+  color:yellowgreen
+}
+#skill-text-title{
+  color:white;
+  text-decoration: underline;
+}
+#connect{
+  margin-top: 300px;
+}
+#tooltip{
+  border: 1px solid black;
+  color: white;
+  text-decoration: none;
+  padding: 4px;
+  border-radius: 2px;
+  display: none;
+}
+#tooltip:hover{
+  display: inline;
+}
