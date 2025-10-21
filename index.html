@@ -494,25 +494,37 @@ This project explored the integration of AI-powered emotion detection with perso
         </div>
       </section>
 
-      <!-- Modal for Fullscreen Image View -->
-      <div class="modal fade" id="imageModal" tabindex="-1" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-lg">
-          <div class="modal-content bg-dark">
-            <div class="modal-body p-0">
-              <img src="" id="modalImage" class="img-fluid w-100" alt="Full Image">
+        <!-- ✅ Modal for Fullscreen Image View -->
+        <div class="modal fade" id="imageModal" tabindex="-1" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-xl"> 
+            <div class="modal-content bg-transparent border-0">
+              <div class="modal-body p-0">
+                <img src="" id="modalImage" class="img-fluid w-100 rounded shadow" alt="Full Image">
+              </div>
+              <div class="modal-footer bg-transparent border-0 d-flex justify-content-center">
+                <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
+              </div>
             </div>
           </div>
         </div>
-      </div>
 
 
 
 
+
+              
+        <!-- ✅ Script for handling image clicks -->
         <script>
-          document.querySelectorAll('.img-click').forEach(item => {
-            item.addEventListener('click', function () {
-              const imgSrc = this.getAttribute('data-img');
-              document.getElementById('modalImage').src = imgSrc;
+          document.addEventListener("DOMContentLoaded", function() {
+            const modalImage = document.getElementById("modalImage");
+            const imageModal = new bootstrap.Modal(document.getElementById("imageModal"));
+
+            document.querySelectorAll(".img-click").forEach(item => {
+              item.addEventListener("click", function () {
+                const imgSrc = this.getAttribute("src"); // use the src directly
+                modalImage.src = imgSrc;
+                imageModal.show(); // manually show modal
+              });
             });
           });
         </script>

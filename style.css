@@ -18,8 +18,7 @@
   color: white; 
 }
 #home-image{
-    height:200px;
-    margin-bottom: 200px;
+  max-height: 400px;
 }
 .animated-text {
   font-family: 'Courier New', monospace;
